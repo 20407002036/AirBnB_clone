@@ -1,9 +1,3 @@
-/* color: white
-height: 70px
-width: 100%
-border bottom 1px #CCCCCC
-logo align on left and center vertically (20px space at the left) */
-
 header{
     color:white;
     height: 70px;
@@ -14,3 +8,13 @@ header{
     background-position: 20px;
     background-color: white;
 }
+  
+  @media screen and (max-width: 645px) {
+    header {
+      border-bottom: none;
+      background-position: center;
+      background-size: 30%;
+      background-color: #FAFAFA;
+    }
+  }
+  
